@@ -1,7 +1,7 @@
 # piEnPred
 A Bi-Layered Model for Prediction of Enhancers and their Sub Types.
 # A Brief
-piEnhPred model make use of k-mer, CKSNAP, DCC, PseDNC, PseKNC as a feature extraction technique and SVM  as the dominant classification algorithm. The 1st layer discriminates a given Enhancer sequence, if the query sequence is predicted as Enhancer then the 2nd Layer tries to predicts their types (strong enhance or weak enhancer)
+piEnhPred model make use of k-mer, CKSNAP, DCC, PseDNC, PseKNC as a feature extraction technique and SVM  as the dominant classification algorithm.The proposed approach use a novel method of Cascade Multi-Level feature selection method. The techniques works over three different values of threshold, 0.03, 0.05 and 0.07 to select top most optimum featuers from a different primitive features. The 1st layer discriminates a given Enhancer sequence, if the query sequence is predicted as Enhancer then the 2nd Layer tries to predicts their types (strong enhance or weak enhancer)
 ## Getting Started
 
 Following are list of todo, before making run of the propose model.

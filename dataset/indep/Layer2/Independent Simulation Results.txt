@@ -1,0 +1,5 @@
+Classifier: SVM(l) Propose    Model
+Feature Description: Fuse  Feature
+Layer -
+ACC 	Sn	    Sp	    F-Score	MCC	    Kappa	APR	    ROC
+72.5	70.0	75.0	0.7179	0.4506	0.45	0.7584	0.775
